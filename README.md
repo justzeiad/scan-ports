@@ -17,11 +17,15 @@ After installing Python, download or clone this repository to your local machine
 To run the port scanner, open a terminal window and navigate to the directory where you saved the script. Then, run the following command:
 
 
-`python3 scan.py -t scanme.nmap.org -s` Replace `-t <host>` with the IP address or hostname of the target machine, `-p <port>` with the port you want to scan or `-p n1,n2,n3,n4` if you want to scan a list of ports or you can use `-p-` to scan All ports from 1:65535 
+`python3 scan.py -t scanme.nmap.org -s` Replace `-t <host>` with the IP address or hostname of the target machine, `-p <port>` with the port you want to scan or `-p n1,n2,n3,n4` if you want to scan a list of ports or you can use `-p-` to scan All ports from 1:65535 .
 
-by Default is scanning All ports
+by Default is scanning All ports.
 
-if you want to see the prosses when scaning all ports you can use `-s` or `--show`
+also you can use `-m` or `--mostports` to scan the most popular ports maybe open, the list of it [21, 22, 23, 25, 53, 80, 110, 143, 443, 465, 587, 993, 995, 3306, 5432, 8080] .
+
+if you want to see the prosses when scaning all ports you can use `-s` or `--show`.
+
+
 
 ![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/scan.png)
 
