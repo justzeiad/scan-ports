@@ -14,6 +14,8 @@ After installing Python, download or clone this repository to your local machine
 
 ## Usage
 
+![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/usage.png)
+
 To run the port scanner, open a terminal window and navigate to the directory where you saved the script. Then, run the following command:
 
 
