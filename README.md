@@ -19,4 +19,5 @@ python scan.py -t <target> -p <port>
 
 ## by default is scaning all ports ##
 
-![plot](./screenshot/scan.jpg)
+![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/scan.png)
+  
