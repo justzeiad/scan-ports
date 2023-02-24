@@ -42,3 +42,7 @@ Contributions are welcome! If you have any suggestions for improving this script
 ## Acknowledgements
 
 This project was inspired by the port scanner tutorial on Real Python: https://realpython.com/python-port-scanner/
+
+## Contact Me
+
+Discord: yuu#8192
