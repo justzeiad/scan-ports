@@ -23,6 +23,8 @@ by Default is scanning All ports
 
 if you want to see the prosses when scaning all ports you can use `-s` or `--show`
 
+![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/scan.png)
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
