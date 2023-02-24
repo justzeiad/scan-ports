@@ -1,6 +1,6 @@
-# Port Scanner
+# Simple Port Scanner
 
-[![GitHub license](https://img.shields.io/github/license/your-username/your-repo)](https://github.com/your-username/your-repo/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/notyuu/scan-ports)](https://github.com/notyuu/scan-ports/blob/main/LICENSE)
 
 ## Description
 
@@ -17,7 +17,9 @@ After installing Python, download or clone this repository to your local machine
 To run the port scanner, open a terminal window and navigate to the directory where you saved the script. Then, run the following command:
 
 
-Replace `<host>` with the IP address or hostname of the target machine, `<start_port>` with the first port you want to scan, and `<end_port>` with the last port you want to scan.
+`python3 scan.py -t scanme.nmap.org -s`Replace `-t <host>` with the IP address or hostname of the target machine, `-p <port>` with the port you want to scan or `-p n1,n2,n3,n4` if you want to scan a list of ports or you can use `-p-` to scan All ports from 1:65535 \nby Default is scanning All ports
+
+if you want to see the prosses when scaning all ports you can use `-s` or `--show`
 
 ## License
 
