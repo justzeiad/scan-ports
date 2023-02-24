@@ -19,3 +19,4 @@ python scan.py -t <target> -p <port>
 
 ## by default is scaning all ports ##
 
+![plot](./screenshot/scan.jpg)
