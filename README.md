@@ -1,31 +1,32 @@
-interface PortScannerREADME
-{
-    /* 
-     * Port Scanner
-     */
+# Port Scanner
 
-    /* Title */
-    string title = "Simple Port Scanner";
+[![GitHub license](https://img.shields.io/github/license/your-username/your-repo)](https://github.com/your-username/your-repo/blob/main/LICENSE)
 
-    /* License Badge */
-    string licenseBadge = "[![GitHub license](https://img.shields.io/github/license/notyuu/scan-ports)](https://github.com/notyuu/scan-ports/blob/main/LICENSE)";
+## Description
 
-    /* Description */
-    string description = "A simple Python script that allows you to scan for open ports on a given host. It can be useful for checking the security of your network or for troubleshooting network issues.";
+A simple Python script that allows you to scan for open ports on a given host. It can be useful for checking the security of your network or for troubleshooting network issues.
 
-    /* Installation */
-    string installation = "To use this script, you will need Python 3 installed on your system. You can download it from the official website: https://www.python.org/downloads/\n\nAfter installing Python, download or clone this repository to your local machine.";
+## Installation
 
-    /* Usage */
-    string usage = "To run the port scanner, open a terminal window and navigate to the directory where you saved the script. Then, run the following command:\n\npython scan.py -t <host> -p <port> \n\nReplace -t <host> with the IP address or hostname of the target machine, -p with the Port you want to scan or you can add a list of ports by -p n1,n2,n3,n4 or you can scanning all port by -p- \n by default is scanning all ports ;
+To use this script, you will need Python 3 installed on your system. You can download it from the official website: https://www.python.org/downloads/
 
-    /* License */
-    string license = "This project is licensed under the MIT License. See the LICENSE file for details.";
+After installing Python, download or clone this repository to your local machine.
 
-    /* Contributing */
-    string contributing = "Contributions are welcome! If you have any suggestions for improving this script, please open an issue or submit a pull request.";
+## Usage
 
-    /* Acknowledgements */
-    string acknowledgements = "This project was inspired by the port scanner tutorial on Real Python: https://realpython.com/python-port-scanner/";
+To run the port scanner, open a terminal window and navigate to the directory where you saved the script. Then, run the following command:
 
-};
+
+Replace `<host>` with the IP address or hostname of the target machine, `<start_port>` with the first port you want to scan, and `<end_port>` with the last port you want to scan.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions for improving this script, please open an issue or submit a pull request.
+
+## Acknowledgements
+
+This project was inspired by the port scanner tutorial on Real Python: https://realpython.com/python-port-scanner/
