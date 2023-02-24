@@ -13,6 +13,7 @@ To use this script, you will need Python 3 installed on your system. You can dow
 After installing Python, download or clone this repository to your local machine.
 
 `git clone https://github.com/notyuu/scan-ports.git`
+
 `pip install pyfiglet && pip install argparse`
 
 ## Usage
