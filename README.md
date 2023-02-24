@@ -16,3 +16,6 @@ python scan.py -t <target> -p <port>
 ## if you want to show the prosses add --show/-s arg to the script ##
 
 ## -p- to scan all ports ##
+
+## by default is scaning all ports ##
+
