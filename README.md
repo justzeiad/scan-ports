@@ -3,9 +3,7 @@ simple port scaning
 
 ##### installing the librarys if not defined ######
 
-pip install socket
-pip install datetime
-pip install pyfiglet
+pip install socket && pip install datetime && pip install pyfiglet
 
 ##### start scaning ####
 
