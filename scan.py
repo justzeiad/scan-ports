@@ -6,7 +6,7 @@ ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
 print(pyfiglet.figlet_format("Made By Yuu", font = "digital" ))
 
-parser = argparse.ArgumentParser(description='Scan target URL for open ports using nmap')
+parser = argparse.ArgumentParser(description='Scan target URL for open ports using scan-ports')
 parser.add_argument('-t', '--target', type=str,nargs='?', required=True,
                     help='Target URL or IP address')
 parser.add_argument('-p', '--port', type=str, nargs='?', default='-',
@@ -76,7 +76,7 @@ def HservByPort(p):
         serv = "Unknown"
     return serv
 
-def ScanMustPort():
+def ScanMostPort():
     common_ports = [80, 443, 22, 21, 25, 53, 110, 143, 587, 993, 995, 3306, 8080, 8443, 111, 445, 993, 1723, 137, 138, 139, 5900, 5901, 5902, 5903, 1433, 3389, 23, 161, 162, 69, 123, 389, 636, 3389, 1194, 8081, 8444, 465, 587, 514, 515, 631, 873, 2049, 111, 2049, 2048, 2047, 2046, 2045, 2044, 2043, 2042, 2041, 2040, 4045, 2869, 102, 1024, 1025, 1026, 1027, 1028, 1029, 3000, 3001, 8000, 8001, 9418, 27017, 27018, 27019, 3690, 9200, 5601, 15672, 61613, 61616, 5432, 5433, 5434, 5435, 5436, 5437, 5438, 5439, 5440, 5441, 54322, 10000, 17500, 5353, 6000, 30000, 49152, 49153, 49154, 49155, 49156, 49157]
     for n in common_ports:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -93,7 +93,7 @@ def ScanMustPort():
 
 try:
     if most:
-        ScanMustPort()
+        ScanMostPort()
 
     elif port == '-':
         ScanAll()
