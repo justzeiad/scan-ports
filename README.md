@@ -14,7 +14,11 @@ After installing Python, download or clone this repository to your local machine
 
 `git clone https://github.com/notyuu/scan-ports.git`
 
+`cd scan-ports`
+
 `pip install pyfiglet && pip install argparse`
+
+`python scan.py -h`
 
 ## Usage
 
