@@ -23,6 +23,16 @@ target = args.target
 port = args.port
 show = args.show
 most = args.mostports
+openports = []
+
+def ShowOpenPorts(openports):
+    print("\nFinally List Of Open Ports: \n")
+    for w in openports:
+        print(w)
+    print("\n")
+
+
+
 
 def Header():
     print("-"*50)
@@ -43,12 +53,17 @@ def ScanAll():
         if result == 0:
             printer = f"\033[32m[+]\033[0m \033[32m{HservByPort(p)}\033[0m Port \033[32m{p}\033[0m Is Open"
             print(printer)
+            openports.append(printer)
         else:
             if show:
                 printer = f"\033[31m[-]\033[0m \033[31m{HservByPort(p)}\033[0m Port \033[31m{p}\033[0m Is Close"
                 print(printer)
 
         s.close()
+
+    if show:
+        ShowOpenPorts(openports)
+    
 
 
 def ScanPort(port):
@@ -61,12 +76,16 @@ def ScanPort(port):
         if result == 0:
             printer = f"\033[32m[+]\033[0m \033[32m{HservByPort(p)}\033[0m Port \033[32m{p}\033[0m Is Open"
             print(printer)
+            openports.append(printer)
             
         else:
             printer = f"\033[31m[-]\033[0m \033[31m{HservByPort(p)}\033[0m Port \033[31m{p}\033[0m Is Close"
             print(printer)
         
         s.close()
+
+    if show:
+        ShowOpenPorts(openports)
 
 
 def HservByPort(p):
@@ -85,10 +104,17 @@ def ScanMostPort():
         if result ==0:
             printer = f"\033[32m[+]\033[0m \033[32m{HservByPort(n)}\033[0m Port \033[32m{n}\033[0m Is Open"
             print(printer)
+            openports.append(printer)
         else:
-            printer = f"\033[31m[-]\033[0m \033[31m{HservByPort(n)}\033[0m Port \033[31m{n}\033[0m Is Close"
-            print(printer)
+            if show:
+                printer = f"\033[31m[-]\033[0m \033[31m{HservByPort(n)}\033[0m Port \033[31m{n}\033[0m Is Close"
+                print(printer)
+            
+
         s.close()
+    if show:
+        ShowOpenPorts(openports)
+    
 
 
 try:
@@ -110,4 +136,7 @@ except KeyboardInterrupt:
 except socket.gaierror:
         print("\n \033[1;33;40mThe hostname cannot be reached !\033[0m")
         sys.exit()
-        
+
+if not show:
+    print("\n")
+
