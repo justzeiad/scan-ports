@@ -27,7 +27,7 @@ To run the port scanner, open a terminal and navigate to the directory where you
 
 by Default is scanning All ports.
 
-also you can use `-m` or `--mostports` to scan the most popular ports maybe open, the list of it [21, 22, 23, 25, 53, 80, 110, 143, 443, 465, 587, 993, 995, 3306, 5432, 8080] .
+also you can use `-m` or `--mostports` to scan the most popular 100 port maybe open, the list of it .
 
 if you want to see the prosses when scaning all ports you can use `-s` or `--show`.
 
