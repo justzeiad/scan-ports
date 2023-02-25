@@ -18,9 +18,11 @@ After installing Python, download or clone this repository to your local machine
 
 `pip install pyfiglet && pip install argparse`
 
-`python scan.py -h`
+
 
 ## Usage
+
+`python scan.py -h`
 
 ![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/usage.png)
 
