@@ -56,5 +56,4 @@ This project was inspired by the port scanner tutorial on Real Python: https://r
 ## Contact Me
 
 - Email: justzeiad@proton.me
-
 - Discord: NotZiad#5062
