@@ -4,7 +4,7 @@ import argparse
 
 ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
-print(pyfiglet.figlet_format("Made By Yuu", font = "digital" ))
+print(pyfiglet.figlet_format("Made By Justzeiad", font = "digital" ))
 
 parser = argparse.ArgumentParser(description='Scan target URL for open ports using scan-ports')
 parser.add_argument('-t', '--target', type=str,nargs='?', required=True,
