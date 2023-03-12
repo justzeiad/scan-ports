@@ -39,7 +39,7 @@ if you want to see the prosses when scaning all ports you can use `-s` or `--sho
 
 
 
-![alt text](https://github.com/justzeiad/scan-ports/blob/main/screenshot/scan.png)
+![alt text](https://github.com/justzeiad/scan-ports/blob/main/screenshot/example.png)
 
 ## License
 
