@@ -1,6 +1,6 @@
 # Simple Port Scanner
 
-[![GitHub license](https://img.shields.io/github/license/notyuu/scan-ports)](https://github.com/notyuu/scan-ports/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/justzeiad/scan-ports)](https://github.com/justzeiad/scan-ports/blob/main/LICENSE)
 
 ## Description
 
@@ -12,7 +12,7 @@ To use this script, you will need Python 3 installed on your system. You can dow
 
 After installing Python, download or clone this repository to your local machine.
 
-`git clone https://github.com/notyuu/scan-ports.git`
+`git clone https://github.com/justzeiad/scan-ports.git`
 
 `cd scan-ports`
 
@@ -24,7 +24,7 @@ After installing Python, download or clone this repository to your local machine
 
 `python scan.py -h`
 
-![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/usage.png)
+![alt text](https://github.com/justzeiad/scan-ports/blob/main/screenshot/usage.png)
 
 To run the port scanner, open a terminal and navigate to the directory where you saved the script. Then, run the following command:
 
@@ -39,7 +39,7 @@ if you want to see the prosses when scaning all ports you can use `-s` or `--sho
 
 
 
-![alt text](https://github.com/notyuu/scan-ports/blob/main/screenshot/scan.png)
+![alt text](https://github.com/justzeiad/scan-ports/blob/main/screenshot/scan.png)
 
 ## License
 
